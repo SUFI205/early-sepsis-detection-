@@ -1,0 +1,21 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/.env
+*.pyc
+
+# MIMIC Data - IMPORTANT!
+# NEVER commit raw healthcare CSV data to public GitHub
+*.csv
+mimic-iii-clinical-database-1.4/
+mimic-iii-clinical-database-demo-1.4/
+
+# React / Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+npm-debug.log*
+
+# OS
+.DS_Store
+Thumbs.db

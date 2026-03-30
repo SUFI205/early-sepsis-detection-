@@ -1,0 +1,9 @@
+{
+  "name": "early-sepsis-detection-system",
+  "version": "1.0.0",
+  "description": "Root workspace to launch React Frontend and FastAPI Backend simultaneously.",
+  "scripts": {
+    "dev": "npx concurrently \"cd backend && .\\venv\\Scripts\\activate.bat && uvicorn main:app --reload\" \"cd frontend && npx vite\"",
+    "install-all": "cd frontend && npm install && cd ../backend && .\\venv\\Scripts\\activate.bat && pip install -r requirements.txt"
+  }
+}

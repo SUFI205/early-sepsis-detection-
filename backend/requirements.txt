@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+torch
+pandas
+shap
+langchain
+langchain-huggingface
+huggingface_hub
+python-dotenv
+python-multipart
+scikit-learn
+websockets
